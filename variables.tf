@@ -1,4 +1,4 @@
-variable "storage_account_name" {
+variable "name" {
   description = "(Required) Specifies the human consumable label for this resource."
   default     = ""
 }
