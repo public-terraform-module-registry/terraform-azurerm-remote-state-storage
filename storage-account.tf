@@ -13,7 +13,7 @@ resource "azurerm_storage_account" "remote_state_sa" {
   account_replication_type = "${var.storage_account_replication_type}"
 
   lifecycle {
-    prevent_destroy = false
+    prevent_destroy = true
   }
 
 }
