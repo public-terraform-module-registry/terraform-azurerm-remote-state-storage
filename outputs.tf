@@ -13,3 +13,7 @@ output "container-name" {
 output "storage_account_id" {
   value = "${azurerm_storage_account.remote_state_sa.id}"
 }
+
+output "storage_account_primary_blob_endpoint" {
+  value = "${azurerm_storage_account.remote_state_sa.primary_blob_endpoint}"
+}
